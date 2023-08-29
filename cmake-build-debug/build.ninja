@@ -55,11 +55,11 @@ build CMakeFiles/ProjectDS.dir/main.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/U
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir
 
-build CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/FunkcjeSterujace/PanelSterowania.cpp || cmake_object_order_depends_target_ProjectDS
-  DEP_FILE = CMakeFiles\ProjectDS.dir\FunkcjeSterujace\PanelSterowania.cpp.obj.d
+build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Osoba.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/Osoba.cpp || cmake_object_order_depends_target_ProjectDS
+  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\Osoba.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\FunkcjeSterujace
+  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\Logika_Biznesowa
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj: CXX_COM
 #############################################
 # Link the executable ProjectDS.exe
 
-build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj
+build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Osoba.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjectDS.dir

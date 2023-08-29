@@ -1,4 +1,8 @@
 # ninja log v5
 0	398	7150283786347464	CMakeFiles/ProjectDS.dir/main.cpp.obj	7c396fc94d02fb17
-3	84	7150284027464950	CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj	e26813dc10f02462
 84	241	7150284028997409	ProjectDS.exe	de7ab1be93cc55c1
+3	84	7150284027464950	CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj	e26813dc10f02462
+2	158	7150314857320135	build.ninja	c4fa0f287fc9b800
+10	344	7150314861077274	CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Osoba.cpp.obj	dc47280b848f716c
+0	419	7150314861832944	CMakeFiles/ProjectDS.dir/main.cpp.obj	7c396fc94d02fb17
+420	562	7150314863256716	ProjectDS.exe	71f24ca4a8dc3725
