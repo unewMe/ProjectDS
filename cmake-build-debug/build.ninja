@@ -57,6 +57,14 @@ build CMakeFiles/ProjectDS.dir/main.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/U
   TARGET_COMPILE_PDB = CMakeFiles\ProjectDS.dir\
   TARGET_PDB = ProjectDS.pdb
 
+build CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/FunkcjeSterujace/PanelSterowania.cpp || cmake_object_order_depends_target_ProjectDS
+  DEP_FILE = CMakeFiles\ProjectDS.dir\FunkcjeSterujace\PanelSterowania.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ProjectDS.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\FunkcjeSterujace
+  TARGET_COMPILE_PDB = CMakeFiles\ProjectDS.dir\
+  TARGET_PDB = ProjectDS.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ProjectDS
@@ -65,7 +73,7 @@ build CMakeFiles/ProjectDS.dir/main.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/U
 #############################################
 # Link the executable ProjectDS.exe
 
-build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj
+build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj CMakeFiles/ProjectDS.dir/FunkcjeSterujace/PanelSterowania.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
