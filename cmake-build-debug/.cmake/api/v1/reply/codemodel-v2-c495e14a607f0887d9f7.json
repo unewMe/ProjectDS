@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/piotr/CLionProjects/ProjectDS/cmake-build-debug",
-		"source" : "C:/Users/piotr/CLionProjects/ProjectDS"
+		"build" : "C:/Users/chudz/CLionProjects/ProjectDS/cmake-build-debug",
+		"source" : "C:/Users/chudz/CLionProjects/ProjectDS"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }
