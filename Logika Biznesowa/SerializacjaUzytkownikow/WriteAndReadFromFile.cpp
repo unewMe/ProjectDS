@@ -4,28 +4,45 @@
 
 #include "WriteAndReadFromFile.h"
 #include <fstream>
-void WriteAndReadFromFile::WriteIntoFile(User *user)
+#include <vector>
+#include "../WirtualneByty/User.h"
+#include<sstream>
+void WriteAndReadFromFile::WriteIntoFile(vector<User> users)
 {
-    fstream file;
-    file.open("saved",ios::out|ios::binary);
-    if(!file)
+    ofstream file("data.txt");
+    //file.open("data.txt", std::ios::in | std::ios::out );
+    if(!file.good())
     {
-        return;
+
     }
-    file.write((char*)&user,sizeof(user));
+    for(int i=0;i<users.size();i++)
+    {
+       file<<users[i].serialize()<<endl;
+    }
     file.close();
 }
 
-User* WriteAndReadFromFile::ReadFromFile()
+vector<User> WriteAndReadFromFile::ReadFromFile()
 {
-    fstream file;
-    User *user;
-    file.open("saved",ios::in|ios::binary);
+    ifstream file("data.txt");
+    vector<User> users;
+    //file.open("data.txt",std::ios::in | std::ios::out );
     if(!file)
     {
-        return NULL;
+
     }
-    file.read((char*)&user,sizeof(user));
+    string user;
+    while(getline(file,user))
+    {
+        vector<string> data;
+        istringstream iss(user);
+        string singleData;
+        while(iss>>singleData)
+        {
+            data.push_back(singleData);
+        }
+        users.push_back(User(data[0],data[1],data[2],stoi(data[3]),stoi(data[4]),stoi(data[5]),data[6],data[7]));
+    }
     file.close();
-    return user;
+    return users;
 }
