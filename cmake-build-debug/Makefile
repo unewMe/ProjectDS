@@ -128,6 +128,102 @@ ProjectDS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/build
 .PHONY : ProjectDS/fast
 
+Logika_Biznesowa/Logowanie.obj: Logika_Biznesowa/Logowanie.cpp.obj
+.PHONY : Logika_Biznesowa/Logowanie.obj
+
+# target to build an object file
+Logika_Biznesowa/Logowanie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Logowanie.cpp.obj
+.PHONY : Logika_Biznesowa/Logowanie.cpp.obj
+
+Logika_Biznesowa/Logowanie.i: Logika_Biznesowa/Logowanie.cpp.i
+.PHONY : Logika_Biznesowa/Logowanie.i
+
+# target to preprocess a source file
+Logika_Biznesowa/Logowanie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Logowanie.cpp.i
+.PHONY : Logika_Biznesowa/Logowanie.cpp.i
+
+Logika_Biznesowa/Logowanie.s: Logika_Biznesowa/Logowanie.cpp.s
+.PHONY : Logika_Biznesowa/Logowanie.s
+
+# target to generate assembly for a file
+Logika_Biznesowa/Logowanie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Logowanie.cpp.s
+.PHONY : Logika_Biznesowa/Logowanie.cpp.s
+
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.obj: Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.obj
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.obj
+
+# target to build an object file
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.obj
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.obj
+
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.i: Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.i
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.i
+
+# target to preprocess a source file
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.i
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.i
+
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.s: Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.s
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.s
+
+# target to generate assembly for a file
+Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.s
+.PHONY : Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.cpp.s
+
+Logika_Biznesowa/WirtualneByty/Osoba.obj: Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.obj
+
+# target to build an object file
+Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj
+
+Logika_Biznesowa/WirtualneByty/Osoba.i: Logika_Biznesowa/WirtualneByty/Osoba.cpp.i
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.i
+
+# target to preprocess a source file
+Logika_Biznesowa/WirtualneByty/Osoba.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Osoba.cpp.i
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.cpp.i
+
+Logika_Biznesowa/WirtualneByty/Osoba.s: Logika_Biznesowa/WirtualneByty/Osoba.cpp.s
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.s
+
+# target to generate assembly for a file
+Logika_Biznesowa/WirtualneByty/Osoba.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Osoba.cpp.s
+.PHONY : Logika_Biznesowa/WirtualneByty/Osoba.cpp.s
+
+Logika_Biznesowa/WirtualneByty/Uzytkownik.obj: Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.obj
+
+# target to build an object file
+Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj
+
+Logika_Biznesowa/WirtualneByty/Uzytkownik.i: Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.i
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.i
+
+# target to preprocess a source file
+Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.i
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.i
+
+Logika_Biznesowa/WirtualneByty/Uzytkownik.s: Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.s
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.s
+
+# target to generate assembly for a file
+Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectDS.dir\build.make CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.s
+.PHONY : Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProjectDS
+	@echo ... Logika_Biznesowa/Logowanie.obj
+	@echo ... Logika_Biznesowa/Logowanie.i
+	@echo ... Logika_Biznesowa/Logowanie.s
+	@echo ... Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.obj
+	@echo ... Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.i
+	@echo ... Logika_Biznesowa/Metody_wprowadzenia/Rejestracja.s
+	@echo ... Logika_Biznesowa/WirtualneByty/Osoba.obj
+	@echo ... Logika_Biznesowa/WirtualneByty/Osoba.i
+	@echo ... Logika_Biznesowa/WirtualneByty/Osoba.s
+	@echo ... Logika_Biznesowa/WirtualneByty/Uzytkownik.obj
+	@echo ... Logika_Biznesowa/WirtualneByty/Uzytkownik.i
+	@echo ... Logika_Biznesowa/WirtualneByty/Uzytkownik.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

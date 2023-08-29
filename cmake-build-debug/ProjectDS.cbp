@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Logowanie.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Logowanie.h">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Metody wprowadzenia/Rejestracja.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Metody wprowadzenia/Rejestracja.h">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Osoba.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Osoba.h">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Uzytkownik.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Uzytkownik.h">
+			<Option target="ProjectDS"/>
+		</Unit>
 		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/main.cpp">
 			<Option target="ProjectDS"/>
 		</Unit>
