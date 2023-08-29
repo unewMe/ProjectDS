@@ -6,7 +6,8 @@
 #define PROJECTDS_LOGOWANIE_H
 
 
-class Logowanie {
+class Logowanie
+        {
 
 };
 
