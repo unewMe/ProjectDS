@@ -22,7 +22,10 @@ struct dataUrodzenia
 class Person
 {
 public:
+    Person(){};
     Person(string &imie,string &nazwisko,string &mail,int dzien,int miesiac,int rok);
+    string serialize();
+    string getImie();
 
 protected:
     string imie;

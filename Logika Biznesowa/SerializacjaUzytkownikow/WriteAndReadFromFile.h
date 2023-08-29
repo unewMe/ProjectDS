@@ -6,12 +6,12 @@
 
 
 #include "../WirtualneByty/User.h"
-
+#include <vector>
 class WriteAndReadFromFile
 {
 public:
-    void WriteIntoFile(User *user);
-    User* ReadFromFile();
+    void WriteIntoFile(vector<User> users);
+    vector<User> ReadFromFile();
 
 };
 

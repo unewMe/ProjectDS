@@ -9,8 +9,15 @@ using namespace std;
 class User : private Person
 {
 public:
+    User(){};
     User(string &imie, string &nazwisko, string &mail, int dzien, int miesiac, int rok, std::string &username,
          std::string &password);
+    string serialize();
+
+    const string &getUsername() const;
+
+    const string &getPassword() const;
+
 private:
     string username;
     string password;

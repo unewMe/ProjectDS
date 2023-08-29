@@ -4,11 +4,16 @@
 
 #ifndef PROJECTDS_SIGNIN_H
 #define PROJECTDS_SIGNIN_H
-
-
+#include "../WirtualneByty/User.h"
+#include<string>
 class Logowanie
-        {
-
+{
+public:
+    bool isUsernameCorrect(string username);
+    bool isPasswordCorrect(string password);
+    bool singIn(string username,string password);
+private:
+    User user;
 };
 
 
