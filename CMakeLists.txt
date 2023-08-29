@@ -3,4 +3,4 @@ project(ProjectDS)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ProjectDS main.cpp "Logika Biznesowa/Osoba.cpp" "Logika Biznesowa/Osoba.cpp" "Logika Biznesowa/Osoba.cpp")
+add_executable(ProjectDS main.cpp "Logika Biznesowa/Osoba.cpp" "Logika Biznesowa/Osoba.cpp" "Logika Biznesowa/Osoba.cpp" "Logika Biznesowa/Uzytkownik.cpp" "Logika Biznesowa/Osoba.h")
