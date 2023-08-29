@@ -1,11 +1,5 @@
 #include <iostream>
+#include "Logika Biznesowa/WirtualneByty/Uzytkownik.h"
 
-int main()
-{
-    int x;
-    int y;
-    int z;
-    int a;
-//Witaj Szczerbiaczku
 
-}
+

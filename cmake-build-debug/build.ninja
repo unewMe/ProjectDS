@@ -55,14 +55,20 @@ build CMakeFiles/ProjectDS.dir/main.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/U
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir
 
-build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Osoba.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/Osoba.cpp || cmake_object_order_depends_target_ProjectDS
-  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\Osoba.cpp.obj.d
+build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/WirtualneByty/Osoba.cpp || cmake_object_order_depends_target_ProjectDS
+  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\WirtualneByty\Osoba.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\Logika_Biznesowa
+  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\WirtualneByty
 
-build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Uzytkownik.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/Uzytkownik.cpp || cmake_object_order_depends_target_ProjectDS
-  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\Uzytkownik.cpp.obj.d
+build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/WirtualneByty/Uzytkownik.cpp || cmake_object_order_depends_target_ProjectDS
+  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\WirtualneByty\Uzytkownik.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ProjectDS.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\WirtualneByty
+
+build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/LogowanieIRejstraca.cpp.obj: CXX_COMPILER__ProjectDS_Debug C$:/Users/chudz/CLionProjects/ProjectDS/Logika$ Biznesowa/LogowanieIRejstraca.cpp || cmake_object_order_depends_target_ProjectDS
+  DEP_FILE = CMakeFiles\ProjectDS.dir\Logika_Biznesowa\LogowanieIRejstraca.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjectDS.dir\Logika_Biznesowa
@@ -75,7 +81,7 @@ build CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Uzytkownik.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable ProjectDS.exe
 
-build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Osoba.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/Uzytkownik.cpp.obj
+build ProjectDS.exe: CXX_EXECUTABLE_LINKER__ProjectDS_Debug CMakeFiles/ProjectDS.dir/main.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Osoba.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/Uzytkownik.cpp.obj CMakeFiles/ProjectDS.dir/Logika_Biznesowa/LogowanieIRejstraca.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjectDS.dir
