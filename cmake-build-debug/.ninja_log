@@ -1,7 +1,7 @@
 # ninja log v5
 5	728	7150489807478476	CMakeFiles/ProjectDS.dir/main.cpp.obj	7c396fc94d02fb17
 539	720	7150495555250611	ProjectDS.exe	e9faa5eb63860e28
-2	175	7150503179018052	build.ninja	c4fa0f287fc9b800
+2	175	7150511631160690	build.ninja	c4fa0f287fc9b800
 13	282	7150501974726353	CMakeFiles/ProjectDS.dir/Logika_Biznesowa/RejestracjaILogowanie/SignIn.cpp.obj	e4459aa60ae82a1a
 21	448	7150387664147901	CMakeFiles/ProjectDS.dir/Logika_Biznesowa/RejestracjaILogowanie/SignOut.cpp.obj	40db8b001f9cd562
 39	495	7150489805134150	CMakeFiles/ProjectDS.dir/Logika_Biznesowa/WirtualneByty/User.cpp.obj	1c34a71a5e7bf44e
