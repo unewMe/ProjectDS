@@ -4,6 +4,8 @@
 #include <vector>
 #include"RejestracjaILogowanie/SignIn.h"
 #include"main.h"
+#include"StrukturyDanych/BST.h"
+#include"StrukturyDanych/IntegerComparator.h"
 using namespace std;
 int main()
 {
@@ -19,5 +21,8 @@ int main()
     writeAndReadFromFile->WriteIntoFile(users);
     vector<User> users2=writeAndReadFromFile->ReadFromFile();
     Logowanie::singIn(users2);
+    IntegerComparator integerComparator;
+    BST<int>* bst = new BST(integerComparator);
+    bst->add(5);
 }
 

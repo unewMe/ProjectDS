@@ -1,49 +1,60 @@
 /*#include "signout.h"
 #include <iostream>
 #include "../main.h"
+#include "../WirtualneByty/User.h"
 
 using namespace std;
 
-bool signout::signout(){
-    string name,surname,sex,email,username,password,rpassword;
-    int day,month,year;
-    cout<<"imie: ";
-    cin>>name;
-    cout<<"\nnazwisko: ";
-    cin>>surname;
-    cout<<"\nplec: ";
-    do{
-        cin>>sex;
-    }
-    while(!issexcorrect(sex));
+bool SignOut::signout() {
+    string name, surname, sex, email, username, password, rPassword;
+    int day, month, year;
+    cout << "Imie: ";
+    cin >> name;
+    cout << "\nNazwisko: ";
+    cin >> surname;
+    cout << "\nPlec: ";
+    do {
+        cin >> sex;
+    } while (!isSexCorrect(sex));
 
-    cout<<"\nemail: ";
-    do{
-        cin>>email;
-    }
-    while(!isemailcorrect(email));
+    cout << "\nEmail: ";
+    do {
+        cin >> email;
+    } while (!isEmailCorrect(email));
 
-    cout<<"data urodzenia:";
-    do{
-        cout<<"\ndzien: ";
-        cin>>day;
-        cout<<"\nmiesiac: ";
-        cin>>month;
-        cout<<"\nrok: ";
-        cin>>year;
-    }
-    while(!isdatacorrect(day,month,year));
+    cout << "Data urodzenia:";
+    do {
+        cout << "\nDzien: ";
+        cin >> day;
+        cout << "\nMiesiac: ";
+        cin >> month;
+        cout << "\nRok: ";
+        cin >> year;
+    } while (!isDataCorrect(day, month, year));
 
-    cout<<"\nnazwa uzytkownika: ";
-    cin>>username;
-    cout<<"\nhaslo: ";
-    cin>>password;
-    cout<<"\npowtorz haslo: ";
-    do{
-        cin>>rpassword;
-    }
-    while(iscorrectrpassword(password,rpassword));
-*/
+    cout << "\nNazwa uzytkownika: ";
+    do {
+        cin >> username;
+    } while (!isUsernameExist(username, people));
+    cout << "\nHaslo: ";
+    cin >> password;
+    cout << "\nPowtorz haslo: ";
+    do {
+        cin >> rPassword;
+    } while (isCorrectRPassword(password, rPassword));
+
+    User newUser(name, surname, email, day, month, year, username, password);
+
+    people.push_back(newUser)
+
+    print()
+}
+
+
+
+
+
+
 
 
 
