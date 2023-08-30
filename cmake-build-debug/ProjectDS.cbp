@@ -82,31 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Logowanie.cpp">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/RejestracjaILogowanie/SignIn.cpp">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Logowanie.h">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/RejestracjaILogowanie/SignIn.h">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Metody wprowadzenia/Rejestracja.cpp">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/RejestracjaILogowanie/SignOut.cpp">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/Metody wprowadzenia/Rejestracja.h">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/RejestracjaILogowanie/SignOut.h">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Osoba.cpp">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/SerializacjaUzytkownikow/WriteAndReadFromFile.cpp">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Osoba.h">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/SerializacjaUzytkownikow/WriteAndReadFromFile.h">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Uzytkownik.cpp">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Person.cpp">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Uzytkownik.h">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/Person.h">
 			<Option target="ProjectDS"/>
 		</Unit>
-		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/main.cpp">
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/User.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/WirtualneByty/User.h">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/main.cpp">
+			<Option target="ProjectDS"/>
+		</Unit>
+		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/Logika Biznesowa/main.h">
 			<Option target="ProjectDS"/>
 		</Unit>
 		<Unit filename="C:/Users/piotr/CLionProjects/ProjectDS/CMakeLists.txt">
