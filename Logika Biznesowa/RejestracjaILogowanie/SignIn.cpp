@@ -7,7 +7,7 @@
 #include "../main.h"
 #include "iostream"
 using namespace std;
-bool Logowanie::isUsernameCorrect(string username)
+bool Logowanie::isUsernameCorrect(string username,vector<User> people)
 {
     for(int i=0;i<people.size();i++)
     {
@@ -16,7 +16,7 @@ bool Logowanie::isUsernameCorrect(string username)
     }
     return false;
 }
-bool Logowanie::isPasswordCorrect(std::string password)
+bool Logowanie::isPasswordCorrect(std::string password,vector<User> people)
 {
     for(int i=0;i<people.size();i++)
     {
@@ -25,7 +25,7 @@ bool Logowanie::isPasswordCorrect(std::string password)
     }
     return false;
 }
-bool Logowanie::singIn(std::string username, std::string password)
+bool Logowanie::singIn(std::string username, std::string password,vector<User> people)
 {
     bool wantsToRegister=false;
     do
@@ -34,6 +34,7 @@ bool Logowanie::singIn(std::string username, std::string password)
         cout<<"Podaj login: ";
         cin>>inputUsername;
 
-    } while (!isUsernameCorrect(username) && !wantsToRegister)
+    } while (!isUsernameCorrect(username,people) && !wantsToRegister);
+    return true;
 
 }
