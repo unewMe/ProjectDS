@@ -7,6 +7,7 @@
 
 #include "../WirtualneByty/User.h"
 #include <string>
+#include <vector>
 
 
 class SignOut {
@@ -16,6 +17,7 @@ public:
     bool isSexCorrect(string sex);
     bool isDataCorrect(int day, int month, int year);
     bool isCorrectRPassword(string password,string rPassword);
+    bool isUsernameExist(string username,vector<User>users);
 
 
 };
