@@ -16,25 +16,63 @@ bool Logowanie::isUsernameCorrect(string username,vector<User> people)
     }
     return false;
 }
-bool Logowanie::isPasswordCorrect(std::string password,vector<User> people)
+bool Logowanie::isPasswordCorrect(string username,string password,vector<User> people)
 {
     for(int i=0;i<people.size();i++)
     {
-        if(people[i].getPassword()==password)
+        if(people[i].getUsername()==username)
+          if(people[i].getPassword()==password)
             return true;
     }
     return false;
 }
-bool Logowanie::singIn(std::string username, std::string password,vector<User> people)
+bool Logowanie::singIn(vector<User> people)
 {
     bool wantsToRegister=false;
+    string inputUsername;
+    string inputPassword;
+    bool usernameExsist;
+    bool passwordIsCorrect;
+    bool incorrectLogin=false;
     do
     {
-        string inputUsername;
         cout<<"Podaj login: ";
-        cin>>inputUsername;
+        getline(cin,inputUsername);
+        cout<<endl<<"Podaj haslo: ";
+        getline(cin,inputPassword);
+        usernameExsist= isUsernameCorrect(inputUsername,people);
+        passwordIsCorrect = isPasswordCorrect(inputUsername,inputPassword,people);
+        if(!usernameExsist || !passwordIsCorrect)
+        {
+            incorrectLogin=true;
+        }
+        else
+        {
+            incorrectLogin=false;
+        }
 
-    } while (!isUsernameCorrect(username,people) && !wantsToRegister);
+        if(incorrectLogin)
+        {
+            cout<<"Podany uzytkownik nie istnieje sprobuj ponownie lub przejdz do rejstracji"<<endl;
+            cout<<"Czy chcesz sie zarejstrowac?"<<endl;
+            string temp;
+            getline(cin,temp);
+            if(temp=="Tak" || temp == "tak")
+            {
+                wantsToRegister=true;
+            }
+        }
+
+
+    } while (incorrectLogin && !wantsToRegister);
+    if(!incorrectLogin)
+    {
+        cout<<"Zalogowano pomyslne"<<endl;
+    }
+    if(wantsToRegister)
+    {
+        cout<<"Sekcja Rejstracja"<<endl;
+    }
     return true;
 
 }

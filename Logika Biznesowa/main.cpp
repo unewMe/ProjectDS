@@ -2,6 +2,7 @@
 #include "WirtualneByty/Person.h"
 #include "SerializacjaUzytkownikow/WriteAndReadFromFile.h"
 #include <vector>
+#include"RejestracjaILogowanie/SignIn.h"
 #include"main.h"
 using namespace std;
 int main()
@@ -17,5 +18,6 @@ int main()
     users.push_back(user);
     writeAndReadFromFile->WriteIntoFile(users);
     vector<User> users2=writeAndReadFromFile->ReadFromFile();
+    Logowanie::singIn(users2);
 }
 

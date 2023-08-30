@@ -10,9 +10,9 @@
 class Logowanie
 {
 public:
-    bool isUsernameCorrect(string username,vector<User> people);
-    bool isPasswordCorrect(string password,vector<User> people);
-    bool singIn(string username,string password,vector<User> people);
+    static bool isUsernameCorrect(string username, vector<User> people);
+    static bool isPasswordCorrect(string username, string password, vector<User> people);
+    static bool singIn(vector<User> people);
 private:
     User user;
 };
