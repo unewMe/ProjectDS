@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ProjectDS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ProjectDS-Debug-70315c4390d33caad53d.json",
+					"jsonFile" : "target-ProjectDS-Debug-1a698a4fd61f9a498c36.json",
 					"name" : "ProjectDS",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/piotr/CLionProjects/ProjectDS/cmake-build-debug",
-		"source" : "C:/Users/piotr/CLionProjects/ProjectDS"
+		"build" : "C:/Users/chudz/CLionProjects/ProjectDS/cmake-build-debug",
+		"source" : "C:/Users/chudz/CLionProjects/ProjectDS"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }
