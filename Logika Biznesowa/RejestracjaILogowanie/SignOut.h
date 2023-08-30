@@ -1,4 +1,4 @@
-//
+/*//
 // Created by piotr on 29.08.2023.
 //
 
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //PROJECTDS_SIGNOUT_H
+#endif //PROJECTDS_SIGNOUT_H*/

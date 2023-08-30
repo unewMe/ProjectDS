@@ -1,55 +1,50 @@
-#include "SignOut.h"
+/*#include "signout.h"
 #include <iostream>
 #include "../main.h"
 
 using namespace std;
 
-bool SignOut::signout(){
-    string name,surname,sex,email,username,password,rPassword;
+bool signout::signout(){
+    string name,surname,sex,email,username,password,rpassword;
     int day,month,year;
-    cout<<"Imie: ";
+    cout<<"imie: ";
     cin>>name;
-    cout<<"\nNazwisko: ";
+    cout<<"\nnazwisko: ";
     cin>>surname;
-    cout<<"\nPlec: ";
+    cout<<"\nplec: ";
     do{
         cin>>sex;
     }
-    while(!isSexCorrect(sex));
+    while(!issexcorrect(sex));
 
-    cout<<"\nEmail: ";
+    cout<<"\nemail: ";
     do{
         cin>>email;
     }
-    while(!isEmailCorrect(email));
+    while(!isemailcorrect(email));
 
-    cout<<"Data urodzenia:";
+    cout<<"data urodzenia:";
     do{
-        cout<<"\nDzien: ";
+        cout<<"\ndzien: ";
         cin>>day;
-        cout<<"\nMiesiac: ";
+        cout<<"\nmiesiac: ";
         cin>>month;
-        cout<<"\nRok: ";
+        cout<<"\nrok: ";
         cin>>year;
     }
-    while(!isDataCorrect(day,month,year));
+    while(!isdatacorrect(day,month,year));
 
-    cout<<"\nNazwa uzytkownika: ";
+    cout<<"\nnazwa uzytkownika: ";
     cin>>username;
-    cout<<"\nHaslo: ";
+    cout<<"\nhaslo: ";
     cin>>password;
-    cout<<"\nPowtorz haslo: ";
+    cout<<"\npowtorz haslo: ";
     do{
-        cin>>rPassword;
+        cin>>rpassword;
     }
-    while(isCorrectRPassword(password,rPassword));
+    while(iscorrectrpassword(password,rpassword));
+*/
 
 
 
-
-
-
-
-
-}
 
