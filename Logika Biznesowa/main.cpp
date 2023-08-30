@@ -1,8 +1,6 @@
-#include <iostream>
 #include "WirtualneByty/User.h"
 #include "WirtualneByty/Person.h"
 #include "SerializacjaUzytkownikow/WriteAndReadFromFile.h"
-#include <string.h>
 #include <vector>
 #include"main.h"
 using namespace std;
@@ -19,6 +17,5 @@ int main()
     users.push_back(user);
     writeAndReadFromFile->WriteIntoFile(users);
     vector<User> users2=writeAndReadFromFile->ReadFromFile();
-    people=users2;
 }
 
